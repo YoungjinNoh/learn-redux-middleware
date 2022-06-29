@@ -25,7 +25,8 @@ const loading = handleActions(
             ...state,
             [action.payload]: false
         }),
-    }
+    },
+    initialState
 );
 
 export default loading;
