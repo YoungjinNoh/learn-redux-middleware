@@ -1,4 +1,4 @@
-import { increase, decrease, increaseAsync, decreaseAsync } from '../module/counter';
+import { increaseAsync, decreaseAsync } from '../module/counter';
 import Counter from '../components/Counter';
 import { useSelector, useDispatch } from 'react-redux';
 import { useCallback } from 'react';
